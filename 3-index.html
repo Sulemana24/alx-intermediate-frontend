@@ -29,7 +29,7 @@
           <p> Published on <time datetime=”2024-09-10”> September 10</p>
         </header>
         <section>
-          <h3>introduction</h3>
+          <h3>Introduction</h3>
           <p>Semantic HTML helps improve the accessibility and SEO of your website. In this post, we’ll explore its benefits and how to implement it</p>
         </section>
         <section>
@@ -49,6 +49,22 @@
           </footer>
         </section>
       </article>
+      <section>
+        <form action="#" method="post" aria-labelledby=”form-title” role=”form”>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" aria-required="true">
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" aria-required="true">
+          </div>
+          <div>
+            <button type="submit" aria-label="Submit the form">Submit</button>
+          </div>
+            <div aria-live="polite" role="alert"></div>
+        </form>
+      </section>
     </main>
     <footer><p>@copyright</p></footer>
   </body>
