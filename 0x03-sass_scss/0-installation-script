@@ -1,0 +1,10 @@
+1. Initialized npm in the project
+   → npm init -y
+
+2. Installed SASS as a dev dependency
+   → npm install sass --save-dev
+
+3. Created a SASS file (style.scss) inside the src/ folder
+
+4. Compiled the SASS file to CSS
+   → npx sass src/style.scss src/style.css --watch

@@ -1,0 +1,15 @@
+
+# Node modules (ignore all across the repo)
+**/node_modules
+
+# Build outputs
+**/dist
+**/build
+**/output.css
+
+# Lock files (optional - ignore if you don’t want conflicts)
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+node_modules/
+*.css
